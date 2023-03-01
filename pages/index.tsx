@@ -62,19 +62,19 @@ export default function Home() {
               />
             </h3>
           </div>
-          <div className="flex justify-center text-5xl gap-10 text-white py-3 cursor-pointer mt-5">
+          <div className="flex justify-center text-5xl gap-10 text-white py-3  mt-5">
             <a href="https://twitter.com/HoppMwenda">
-              <AiFillTwitterCircle className="transform hover:text-gray-400 transition duration-500 hover:scale-125" />
+              <AiFillTwitterCircle className="transform hover:text-gray-400 cursor-pointer transition duration-500 hover:scale-125" />
             </a>
             <a href="https://linkedin.com/in/hope-murithi">
-              <AiFillLinkedin className="transform hover:text-gray-400 transition duration-500 hover:scale-125" />
+              <AiFillLinkedin className="transform hover:text-gray-400 transition cursor-pointer duration-500 hover:scale-125" />
             </a>
             <a href="mailto:hoppmurithi@gmail.com">
               {" "}
-              <AiFillMail className="transform hover:text-gray-400 transition duration-500 hover:scale-125" />
+              <AiFillMail className="transform hover:text-gray-400 transition cursor-pointer duration-500 hover:scale-125" />
             </a>
             <a href="https://medium.com/@hoppmurithi">
-              <AiFillMediumCircle className="transform hover:text-gray-400 transition duration-500 hover:scale-125" />
+              <AiFillMediumCircle className="transform hover:text-gray-400 cursor-pointer transition duration-500 hover:scale-125" />
             </a>
           </div>
         </section>

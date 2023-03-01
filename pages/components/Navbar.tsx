@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" sticky top-0 -mt-5py-10 mb-5 flex justify-between ">
+    <nav className=" sticky top-0 -mt-5 py-10 mb-5 flex justify-between ">
       <h1 className="text-xl font-burtons text-yellow-600">Hope Murithi</h1>
       <ul className="flex items-center">
         <li className="transform  hover:text-black transition duration-500 hover:scale-125">
