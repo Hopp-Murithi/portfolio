@@ -74,7 +74,7 @@ const Background = () => {
                 default: "bounce",
               },
               random: true,
-              speed: 3.5,
+              speed: 5,
               straight: false,
             },
             number: {
