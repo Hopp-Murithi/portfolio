@@ -48,6 +48,9 @@
 @font-face {
   font-family: 'burtons';
   src: url('../public/Burtons.otf');
+  font-family: 'neueMachina';
+  src: url('../public/NeueMachina-Regular.otf');
+
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -88,9 +91,6 @@
   margin: 0;
 }
 
-/**.bg-[url] {
-  background-image: url('../public/circlesbg.png');
-}**/
 html,
 body {
   max-width: 100vw;

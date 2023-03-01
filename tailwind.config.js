@@ -6,10 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily : {
+      fontFamily: {
         burtons: "burtons",
-      }
+        neueMachina: "neueMachina",
+      },
     },
   },
   plugins: [],
-}
+};
