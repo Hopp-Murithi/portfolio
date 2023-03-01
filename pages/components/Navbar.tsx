@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="py-10 mb-12 flex justify-between">
+      <nav className="py-10 mb-5 flex justify-between sticky top-0">
         <h1 className="text-xl font-burtons text-yellow-600">Hope Murithi</h1>
         <ul className="flex items-center">
           <li className="transform  hover:text-black transition duration-500 hover:scale-125">
