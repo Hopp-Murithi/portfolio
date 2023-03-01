@@ -43,9 +43,12 @@ export default function Home() {
                 Hope Murithi
               </h2>
             </div>
-            <div className="relative mx-auto bg-gradient-to-tr from-gray-800 to-yellow-600 rounded-full w-80 h-80 mt-10 overflow-hidden">
+            <div className="flex -mt-5">
+            <div className=" mx-auto bg-gradient-to-tr from-gray-800 to-yellow-600 rounded-full w-80 h-80 mt-10 overflow-hidden">
               <Image src={myAvatar} alt="Avatar" />
             </div>
+            </div>
+          
             <h3 className="font-neueMachina font-bold text-md py-2 text-center m-5 md:text-xl lg:text-2xl">
               <TypeAnimation
                 sequence={[
