@@ -52,7 +52,7 @@ export default function Home() {
             <h3 className="font-neueMachina font-bold text-md py-2 text-center m-5 md:text-xl lg:text-2xl">
               <TypeAnimation
                 sequence={[
-                  "I am a full-stack web developer with a passion for building dynamic and engaging websites. Additionally, I write on Medium about Web3 and am actively learning blockchain technology with Ethereum and Solidity. Let's work together to create the next generation of web experiences! ",
+                  "I am a full-stack developer with a passion for building dynamic and engaging websites. Additionally, I write on Medium about Web3 and am actively learning blockchain technology with Ethereum and Solidity. Let's work together to create the next generation of web experiences! ",
                   10000,
                 ]}
                 speed={60}
