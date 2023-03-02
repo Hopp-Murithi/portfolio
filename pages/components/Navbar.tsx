@@ -25,7 +25,7 @@ const Navbar = () => {
       <ul className="flex items-center">
         <li className="transform  hover:text-black transition duration-500 hover:scale-125">
           <a
-            href="https://github.com/Hopp-Murithi"
+            href="https://github.com/Hopp-Murithi?tab=repositories"
             className=" bg-gradient-to-tr from-gray-800 to-yellow-600 text-white px-4 py-2 rounded-full ml-8 "
           >
             Projects
