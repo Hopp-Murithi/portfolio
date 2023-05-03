@@ -78,7 +78,7 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <div className="flex justify-center items-center text-lg font-burtons lg:-mt-10">
+        <div className="flex justify-center items-center text-lg font-burtons">
           <AiFillCopyrightCircle /> {new Date().getFullYear()}
         </div>
       </main>
