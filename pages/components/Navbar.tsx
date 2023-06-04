@@ -1,23 +1,9 @@
 import React, { useState } from "react";
-import jsPDF from "jspdf";
+
 
 const Navbar = () => {
   const [saving, setSaving] = useState(false);
 
-  const saveResume = () => {
-    setSaving(true);
-    let doc = new jsPDF("portrait", "px", "a4", false);
-    doc.addImage(
-      "https://i.ibb.co/mqGfnyf/Hope-Murithi-s-Resume2-1.png",
-      "png",
-      0,
-      0,
-      417,
-      653
-    );
-    doc.save("HopeMurithi.pdf");
-    setSaving(false);
-  };
 
   return (
     <nav className=" sticky top-0 -mt-5 py-10 mb-5 flex justify-between ">
@@ -34,9 +20,8 @@ const Navbar = () => {
         <li className="transform  hover:text-black transition duration-500 hover:scale-125">
           <button
             className="bg-gradient-to-tr from-gray-800 to-yellow-600 text-white px-4 py-2 rounded-full ml-8"
-            onClick={saveResume}
-          >
-            Resume
+          ><a href="https://drive.google.com/file/d/1VLoBM6v4a4tQNaFf2xK5LogHtXlANuQr/view?usp=sharing">  Resume</a>
+          
           </button>
         </li>
       </ul>
